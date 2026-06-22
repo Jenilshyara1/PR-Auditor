@@ -11,10 +11,7 @@ GitHub PR event → FastAPI webhook → Celery task → LangGraph agent graph
 (Planner → Security/Style/TestCoverage/Perf specialists → Critic) → GitHub comment + dashboard
 ```
 
-See [docs/PR_Auditor_System_Design.md](docs/PR_Auditor_System_Design.md) for the full design.
-
 ## Structure
 
 - `backend/` — FastAPI + Celery + LangGraph (ingestion, orchestration, AI reasoning)
 - `frontend/` — read-only dashboard
-- `docs/` — design documentation
