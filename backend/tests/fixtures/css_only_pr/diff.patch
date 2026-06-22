@@ -1,0 +1,10 @@
+diff --git a/src/styles.css b/src/styles.css
+new file mode 100644
+index 0000000..5555555
+--- /dev/null
++++ b/src/styles.css
+@@ -0,0 +1,4 @@
++.button {
++    color: blue;
++    padding: 8px;
++}
